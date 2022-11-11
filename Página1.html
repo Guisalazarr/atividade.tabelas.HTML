@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página 1</title>
+
+    <style>
+        table, th, td {
+            border: 2px solid black;
+            border-collapse: collapse;
+            width: 400px; 
+            height: 25px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+            <h2>Primeira Tabela</h2>
+    </header>
+    <main>
+        <h3>Tabela Básica</h3>
+        <table>
+            <thead style="text-align: left;">
+                <tr>
+                    <td>1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+            </thead>
+            <tbody style="text-align: center;">  
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                    <td>6</td>
+                </tr>
+            </tbody> 
+            <tfoot style="text-align: right;">   
+                <tr>
+                    <td>7</td>
+                    <td>8</td>
+                    <td>9</td>
+                </tr>
+            </tfoot>   
+        </table>
+
+        <br>
+        <br>
+
+        <h3>Tabela com Colspan</h3>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr> 
+            <tr>
+                <td colspan="3" style="text-align: center;">4</td>
+            </tr>   
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+        </table>
+
+        <br>
+        <br>
+        <h3>Tabela com Rowspan</h3>
+
+        <table>
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td rowspan="3" style="text-align: center;">3</td>
+            </tr>
+
+            <tr>
+                <td colspan="2" style="text-align: center;">4</td>
+
+            <tr>
+                <td>5</td>
+                <td>6</td>
+            </tr>  
+        </table>
+        
+    </main>
+</body>
+</html>
